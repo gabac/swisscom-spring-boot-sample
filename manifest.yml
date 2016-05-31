@@ -1,0 +1,7 @@
+---
+applications:
+- name: swisscom-spring-boot-sample
+  memory: 768M
+  buildpack: java_buildpack
+  path: target/tax-refund-be-0.0.1-SNAPSHOT.jar
+  timeout: 180
